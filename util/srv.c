@@ -23,8 +23,7 @@
 #include <windows.h>
 #else
 #include <netinet/in.h>
-// #include <arpa/nameser.h>
-#include <arpa_nameser_compat.h>
+#include <arpa/nameser.h>
 #include <arpa/inet.h>
 #include <resolv.h>
 #endif
@@ -33,7 +32,6 @@
 #include <string.h>
 #include <time.h>
 #include "srv.h"
-
 
 /* Not every installation has gotten around to supporting SRVs
    yet... */

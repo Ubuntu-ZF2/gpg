@@ -35,8 +35,6 @@
 #define MAXDNAME 1025
 #endif
 
-#include <arpa_nameser.h>
-
 struct srventry
 {
   u16 priority;

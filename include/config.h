@@ -7,7 +7,7 @@
 
 
 /* Defined if the host has big endian byte ordering */
-#define BIG_ENDIAN_HOST 1
+/* #undef BIG_ENDIAN_HOST 1 */
 
 /* an Apple OSXism */
 /* #undef BIND_8_COMPAT */
@@ -635,7 +635,7 @@
 /* #undef LIBCURL_VERNUM */
 
 /* Defined if the host has little endian byte ordering */
-/* #undef LITTLE_ENDIAN_HOST */
+#define LITTLE_ENDIAN_HOST 1
 
 /* Defined if mkdir() does not take permission flags */
 /* #undef MKDIR_TAKES_ONE_ARG */
